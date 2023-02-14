@@ -13,7 +13,7 @@ function About ({ isOpen, onClose}) {
           This app was built using React, Javascript, and CSS. All information on user's collection is returned by the Discogs API. 
         </p>
         <p className="about__text">
-          To view functionality with an example user, you can use "gert__keifrobe" (the personal collection of the developer).
+          To view functionality with an example user, you can use "gert_keifrobe" (the personal collection of the developer).
         </p>
       </Modal>
     </div>
