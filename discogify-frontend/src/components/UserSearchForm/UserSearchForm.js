@@ -1,10 +1,8 @@
 import React, {useState} from 'react'
 import './UserSearchForm.css';
-import { useNavigate } from 'react-router-dom';
 
 function DiscogsUserSearchForm({ handleUserSearchFormSubmit }) {
 	const [username, setUsername] = useState('');
-	const navigate = useNavigate();
 
 	const handleUsernameChange = (e) => {
 		setUsername(e.target.value);
@@ -16,8 +14,7 @@ function DiscogsUserSearchForm({ handleUserSearchFormSubmit }) {
 	}
 
 	return (
-		<form className="username__form" onSubmit={handleSubmit}>
-			{/* <h4 className="form__label">Enter Discogs username</h4> */}
+		<form className="form" onSubmit={handleSubmit}>
 			<input 
 				type="text" 
 				placeholder="Discogs username"

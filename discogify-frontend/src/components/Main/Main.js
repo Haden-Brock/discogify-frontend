@@ -1,7 +1,6 @@
 import React from 'react';
 import './Main.css';
 import UserSearchForm from '../UserSearchForm/UserSearchForm';
-import ReleaseItemList from '../ReleaseItemList/ReleaseItemList';
 import Preloader from '../Preloader/Preloader';
 
 

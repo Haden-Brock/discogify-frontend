@@ -43,3 +43,13 @@
   background-size: cover;
   border: none;
 }
+
+@media screen and (max-width: 700px) {
+  .modal__container {
+    height: 500px;
+  }
+
+  .modal__exit {
+    right: 0;
+  }
+}

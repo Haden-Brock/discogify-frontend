@@ -29,11 +29,14 @@
   align-items: center;
   justify-content: center;
   width: 140px;
+  border: none;
+  background-color: transparent;
 }
 
 .header__right:hover {
   cursor: pointer;
   border: 1px solid #000;
+  border-radius: 4px;
 }
 
 .header__center {

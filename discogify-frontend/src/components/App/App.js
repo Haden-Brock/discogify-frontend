@@ -71,7 +71,7 @@ function App() {
   }, [activeModal]);
   
   return (
-    <div className="App">
+    <div className="app">
         <Header handleAboutClick={handleAboutClick} />
         <Routes>
           <Route path="/collection" element={<ReleaseItemList releaseList={releaseList} username={username} clearUsernameReleaseList={clearUsernameReleaseList} />}/>
@@ -79,7 +79,7 @@ function App() {
         </Routes>
         <Footer />
         {activeModal === MODAL_TYPE.ABOUT && (
-          <About isOpen={activeModal === MODAL_TYPE.ABOUT} onClose={closeModal} />
+          <About isOpen={activeModal === MODAL_TYPE.ABOUT} onClose={closeModal}  />
         )}
     </div>
   );

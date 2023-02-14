@@ -17,7 +17,7 @@ function ReleaseItemList ({ releaseList, username, clearUsernameReleaseList }) {
         ? (
             <section className="releases">
               <h3 className="releases__text">{username}'s collection</h3>
-              <p className="releases__return" onClick={handleReturnClick}>Return to search</p>
+              <button className="releases__return" onClick={handleReturnClick}>Return to search</button>
                 <ul className="releases__list">
                   {releaseList.map(
                     ((release, index) => 

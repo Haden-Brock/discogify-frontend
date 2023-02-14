@@ -12,9 +12,9 @@ function Header({ handleAboutClick }) {
       <div className="header__center">
         <h1 className="header__title">Discogify</h1>
       </div>
-      <div className="header__right">
+      <button className="header__right">
         <h3 className="header__about" onClick={handleAboutClick}>About</h3>
-      </div>
+      </button>
     </header>
   )
 }
